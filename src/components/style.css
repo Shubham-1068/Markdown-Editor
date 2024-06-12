@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.ll{
+  color: #14293A;
+  font-size: 50px;
+}
+.contMain{
+  height: 99.62vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar{
+  background-color: #14293A;
+  height: 100px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options{
+  height: 30px;
+  width: 300px;
+  padding: auto;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opList{
+  width: 100%;
+  font-family: sans-serif;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links{
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: aliceblue;
+  }
+  
+  .links:hover{
+  /* background-color: aqua; */
+  text-decoration: underline;
+  background: transparent;
+  text-shadow: 2px 2px 15px rgb(219, 219, 219);
+  }
+  
+.logo{
+  height: 90px;
+  width: 170px;
+}
+
+.save{
+  height: 35px;
+  position: absolute;
+  right: 50px;
+  top: -48px;
+  border: 2px solid #14293A;
+  border-radius: 7px;
+  box-shadow: 1.5px 1.5px 5px rgb(0, 66, 132);
+}
+
+.save:hover{
+  background-color: rgb(211, 211, 211);
+}
+
+.heading{
+  height: 30px;
+  width: 100%;
+  border-bottom: 2px solid #14293A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+
+.main{
+  width: auto;
+  height: 571px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  animation: popin 0.5s ease-in 0s 1 forwards alternate;
+}
+
+.fileName{
+  position: absolute;
+  top: -35px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: sans-serif;
+}
+
+.fileName p{
+  font-size: 20px;
+}
+
+.nameOfFile{
+  height: 19px;
+  width: 160px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #14293A;
+  text-align: center;
+  font-size: 18px;
+}
+
+.section1{
+  height: 100%;
+  width: 50%;
+  border-top: 2px solid #14293A;
+  position: relative;
+}
+
+.section2{
+  height: 100%;
+  width: 50%;
+  position: relative;
+  border-top: 2px solid #14293A;
+  border-left: 2px solid #14293A;
+}
+
+#input{
+  height: 513px;
+  width: 96.8%;
+  padding: 12px;
+  resize: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+
+.output{
+  height: auto;
+  width: 98%;
+  word-break: break-word;
+  position: absolute;
+  right: 0px;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+/* 
+div{
+  border: 2px solid red;
+} */
+
+.outputCont{
+  height: 538px;
+  width: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+.md{
+  margin: 12px;
+  box-sizing: border-box;
+}
+
+img{
+  height: 180px;
+}
+
+h1{
+  line-height: 50px;
+}
+h2{
+  line-height: 45px;
+}
+h3{
+  line-height: 40px;
+}
+h4{
+  line-height: 35px;
+}
+h5{
+  line-height: 30px;
+}
+h6{
+  line-height: 25px;
+}
+
+hr{
+  border-top: 1px solid rgb(176, 176, 176);
+  margin-bottom: 8px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 185, 247);
+}
+
+li{
+  margin-left: 16px;
+}
+
+table{
+  border: 2px solid #14293A;
+}
+
+th{
+  border: 2px solid #14293A;
+}
+
+td{
+  border: 2px solid #14293A;
+}
+
+pre{
+  border: 2px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  background-color: rgb(234, 234, 234);
+  font-size: 13.5px;
+  padding: 8px;
+}
+
+.about{
+  color: black;
+  height: 600px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  opacity: 0;
+  animation: popin 0.5s ease-in 0s 1 forwards alternate;
+}
+
+@keyframes popin {
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+
+.aboutHeader{
+  font-size: xx-large;
+  font-family: sans-serif;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+
+.aboutContent{
+  margin-top: 10px;
+  height: 75%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.aboutContent p{
+  line-height: 22px;
+}
+
+.aboutContent hr{
+  margin-top: 15px;
+}
+
